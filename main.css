@@ -1,0 +1,381 @@
+img{width: 100%; height: auto;}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+}
+
+.description__title__number, .gallery__title__number, .schedules__title__number, .schedules__table__fs-bolder, .where__title__number, .price__title__number{
+    font-family: 'Graphit';
+    font-weight: bolder;
+}
+
+.hamburger {
+    width: 60px;
+    height: 45px;
+    position: relative;
+}
+  
+.hamburger span {
+    position: absolute;
+    height: 5px;
+    width: 50px;
+    background: var(--dark-blue-white);
+    border-radius: 4.5px;
+    left: 0;
+}
+
+.hamburger span:nth-child(1) { top: 6px; }
+.hamburger span:nth-child(2) { top: 20px; }
+.hamburger span:nth-child(3) { bottom: 6px; }
+
+body {margin: 0;}
+
+.hamburger-row {
+    padding-right: calc(100%/20);
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+.hamburger {
+    display: block;
+}
+
+.hamburger-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.hamburger-nav li {
+    display: block;
+    padding: 0.25em 1em 0.25em 5%;
+}
+
+.header__title {
+    font-family: 'Graphit';
+    font-weight: normal;
+    font-size: 1.5em;
+    padding-left: calc(100%/20);
+    padding-top: 1em;
+    margin: 0;
+}
+
+p.header__title a {
+    text-decoration: none;
+    color: var(--dark-blue-white);
+}
+
+.hamburger__content span{
+    color: var(--blue);
+}
+
+header {
+    background-color: var(--midnight-black);
+}
+
+.header__container__text, .schedules p{
+    font-family: 'Graphik';
+    font-weight: normal;
+}
+
+.header__container__text{
+    font-size: 1.25em;
+}
+
+.header__container__text span{
+    color: var(--blue);
+    font-weight: bolder;
+}
+
+.header__container{
+    padding-left: calc(100%/20);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p.header__container-bottom__number{
+    font-family: 'Graphit';
+    font-weight: bold;
+    color: var(--dark-blue-white);
+    margin: 0;
+}
+
+.header__container-bottom {
+    padding-left: calc(100%/20);
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+figure.header__container-bottom__picture{
+    margin: 0;
+    width: 45%;
+    height: 0;
+    margin-right: 5%;
+}
+
+.coach__title h2 {
+    font-size: clamp(1rem, 2vw + 1rem, 3rem);
+    font-family: 'Graphit';
+    font-weight: bolder;
+}
+
+.coach__title h3, .coach__content a, .coach__container__item__number, span.coach__bag__item--number, .description__title > *, .gallery__title > *, .gallery__item span, .schedules__title > *, .where__title > *, span.where__section__container__text__number, .where__section__container__item__number, h2.price__title__h2, .price__title__number, .price__container__block__item__price, .coach__content__item span, span.coach__container__item__number{
+    font-size: clamp(1.5rem, 3vw + 1rem, 5rem);
+}
+
+p.coach__bag__item__text, .coach__title h3, .description__title__h2, .gallery__title__h2, .schedules__title__h2, .where__title__h2, .price__title__h2, .footer__text, .price__container h3, .price__container__block__item__title, .price__container__block__item__price{
+    font-family: 'Graphit';
+    font-weight: bold;
+}
+
+.coach__content a, .coach__container__item__number, span.coach__bag__item--number, .gallery__item span, .schedules span, .where__section__container__text__number, .where__section__container__item span, .coach__content__item span, span.coach__container__item__number{
+    font-family: 'Graphik';
+    font-weight: bold;
+}
+
+section.coach, section.description, section.gallery, .schedules, .where, .price, .footer{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3rem;
+}
+
+.coach__content p, a.coach__container__item__link, .coach__bag__item__element span, .description__table__all, .gallery__item p, .where__section__container__text p, .price__container__block__item__text, .coach__container__item p{
+    font-family: 'Graphit';
+    font-weight: normal;
+    line-height: 1.25;
+    letter-spacing: .1px;
+}
+
+.coach__content__item, .coach__container__item, .coach__bag__item{
+    display: flex;
+    align-items: flex-start;
+}
+
+.coach__bag__item__element ul, .coach__bag__item__icons__container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+strong.coach__bag__element--invisible{
+    color: rgb(255, 255, 255);
+}
+
+.coach__bag__item__icons__container__item{
+    background-color: var(--title-black);
+}
+
+.coach__bag__item--active{
+    background-color: var(--gray);
+}
+
+li.coach__bag__item__icons__container__item, .where__section__container__panel__nav__ul__li  {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#facebook { grid-area: facebook; }
+#instagram { grid-area: instagram; }
+#email { grid-area: email; }
+#location { grid-area: location; }
+#where__facebook { grid-area: where__facebook; }
+#where__instagram { grid-area: where__instagram; }
+#where__email { grid-area: where__email; }
+#where__location { grid-area: where__location; }
+#where__btn { grid-area: where__btn; }
+#where__icons { grid-area: where__icons; }
+#where__phone { grid-area: where__phone; }
+
+.coach__bag__item--active {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+a.coach__bag__item__text {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+nav.coach__bag__item__icons {
+    display: flex;
+    position: absolute;
+}
+
+p.coach__bag__item__text {
+    text-align: center;
+    padding-bottom: 8rem;
+    padding-top: 1rem;
+}
+
+.coach__bag__item--active{
+    position: relative;
+}
+
+.coach__bag__item--active {
+    border-radius: 1rem;
+}
+
+.description__title, .gallery__title, .schedules__title, .where__title, .price__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__table__all__text{
+    width: 70%;
+}
+.description__table__all__title{
+    width: 20%;
+}
+
+.description__table__all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__table, .schedules__table{
+    border-collapse: collapse;
+}
+
+.description__table__border {
+    border-bottom: 1px solid var(--blue);
+}
+
+.schedules__table__border{
+    border-bottom: .01rem solid var(--dark-blue-white);
+}
+
+.description__table__all__text{
+    border-left: 1px solid var(--blue);
+}
+
+.schedules__table--active{
+    border-left: .01rem solid var(--dark-blue-white);
+}
+
+.description__table__border td, .schedules__table__border td{
+    padding-bottom: 2rem;
+}
+
+.description__table__padding td, .schedules__table__padding td{
+    padding-top: .25rem;
+}
+
+.gallery__item {
+    display: flex;
+}
+
+#one { grid-area: one; }
+#two { grid-area: two; }
+#three { grid-area: three; }
+#four { grid-area: four; }
+#schedules__table--first { grid-area: schedules__table--first; }
+#schedules__table--second { grid-area: schedules__table--second; }
+#price_c1 { grid-area: price_c1; }
+#price_c2 { grid-area: price_c2; }
+#price_c3 { grid-area: price_c3; }
+#price_c4 { grid-area: price_c4; }
+#price_c5 { grid-area: price_c5; }
+#price_c6 { grid-area: price_c6; }
+#price_c7 { grid-area: price_c7; }
+#price_c8 { grid-area: price_c8; }
+#price_c001 { grid-area: price_c001;}
+#price_c002 { grid-area: price_c002;}
+#price_c003 { grid-area: price_c003;}
+#price_c004 { grid-area: price_c004;}
+#price_c01 { grid-area: price_c01; }
+#price_c02 { grid-area: price_c02; }
+#price_c03 { grid-area: price_c03; }
+#price_c04 { grid-area: price_c04; }
+#price_c05 { grid-area: price_c05; }
+#price_c06 { grid-area: price_c06; }
+#price_c07 { grid-area: price_c07; }
+#price_c08 { grid-area: price_c08; }
+
+
+.schedules__table td {
+    vertical-align: top;
+}
+
+.schedules__table--grid td {
+    padding-left: 0.25rem;
+}
+
+.schedules__table--rest p, ul.where__section__container__panel__nav__ul {
+    margin: 0;
+}
+
+nav.coach__bag__item__icons img, .where__section__container__panel__nav img, .footer__container__item img, .footer__image img {transition: 0.2s linear;filter: brightness(0) invert(1);}
+nav.coach__bag__item__icons img:hover, .where__section__container__panel__nav img:hover, .footer__container__item img:hover, .footer__image img:hover {transition: 0.2s linear;filter: brightness(1) invert(0);}
+
+.where__section__container__panel__nav__ul__li, .footer__container__item {list-style: none;}
+
+.price__container h3 {
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+    border-radius: 0.75rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.price__container__block__item {
+    background-color: var(--gray);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.price__container__block__item__text {
+    position: absolute;
+    bottom: 0;}
+
+.price__container__block__item__title {
+    position: absolute;
+    top: 0;}
+    
+.price__container__block__item__title, .price__container__block__item__text{
+    padding: 0 1rem 0 1rem;
+}
+
+p.price__container__block__item__price {
+    margin: auto;}
+
+.footer__text p{font-size: 1rem;}
+
+.footer__container {display: flex;}
+
+.footer__container li{
+    margin: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C252D;
+    border-radius: 0.5rem;}
+
+html{scroll-behavior: smooth;}
+
+a.where__section__container__panel__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container__btn, a.where__section__container__panel__btn{
+    text-decoration: none;
+}
+
+.footer__container__item, .where__section__container__panel__nav__ul__li, .coach__bag__item__icons__container__item{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p.header__container__text, .coach__container__item p, .coach__content__item p, .where__section__container__text p, .footer__text p {margin: 0;}

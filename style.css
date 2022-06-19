@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Graphit';
+    src: url('fonts/GraphitBbold.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphit';
+    src: url('fonts/GraphitMedium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphit';
+    src: url('fonts/GraphitRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/GraphikBold.woff') format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/GraphikLight.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/GraphikMedium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/GraphikRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.coach__title, .coach__container__item span, .coach__bag__item__element span, p.coach__bag__item__text, .gallery__title > *, .gallery__item p, .where__title__h2, .where__title__number, .price__title__h2, .price__title__number, .price__container__block__item__text, .price__container__block__item__title{
+    color: var(--title-black);
+}
+
+.coach__content a, .coach__container__item a, .where__title--active ,span.coach__bag__item--number, .description__title--active, .gallery__title--active, .gallery__item span, span.schedules__title--active, .schedules span, .where__title--active, .where__section__container__text span, .where__section__container__item span, .price__container__block__item__price, .footer__text span, .coach__content__item span, span.coach__container__item__number{
+    color: var(--blue);
+}
+
+.description, .schedules, .where__section__container__panel__nav__ul__li, .footer {
+    background-color: var(--midnight-black);
+}
+
+.description__table__all, .description__title h2, .description__title__number, .schedules__title a, .schedules__title h2, .schedules__table__fs-bolder, .header__container__text, .schedules p, .footer__text p, a.where__section__container__panel__btn, span.schedules__title__number{
+    color: var(--dark-blue-white);
+}
+
+.where__section__container__panel, .price__container h3{
+    background-color: var(--gray);
+}
+
+.footer__container__item:hover, .where__section__container__panel__nav__ul__li:hover, .coach__bag__item__icons__container__item:hover{
+    background-color: var(--blue);
+    transition: .2s ease-in-out;
+}
+
+.footer__container__item{border-radius: 0.5rem;}
+
+.header__container__btn, .where__section__container__panel__btn{
+    background: none;                 
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s linear;
+    font-family: 'Graphit';
+    font-weight: normal;
+}
+
+.header__container__btn{
+    border: 1px solid var(--dark-blue-white);
+    margin-top: 2rem;
+    color: rgb(255, 255, 255); 
+    padding: 0.8em 1.5em 0.8em 1.5em;
+}
+
+.where__section__container__panel__btn{
+    border: 1px solid var(--midnight-black);
+    background-color: var(--midnight-black);
+    color: var(--dark-blue-white);
+    height: 58px;
+}
+
+.header__container__btn:hover{
+    color: var(--midnight-black);
+}
+
+.header__container__btn:hover{
+    border: 1px solid var(--dark-blue-white);
+    background-color: var(--dark-blue-white);
+}
+
+.where__section__container__panel__btn:hover{
+    color: var(--title-black);
+}
+
+.where__section__container__panel__btn:hover{
+    border: 1px solid var(--midnight-black);
+    background-color: var(--gray);
+}
+
+.coach__container__item__link{
+    text-decoration: none;
+    color: var(--title-black);
+    position: relative;
+    padding: 0;
+}
+
+:root{
+    --midnight-black: #101922;
+    --blue: #4584F3;
+    --dark-blue-white: #F4F8FF;
+    --gray: #F6F6F6;
+    --title-black: #292A2C; 
+    --special-background: #1C252D;
+}
+
+.header__container-bottom__number--scrolldown p:hover{color: var(--blue);transition: 3s ease-in;user-select: none;}
+
+
